@@ -19,6 +19,7 @@ class ContactsController < ApplicationController
 
     if @contact.save
       render json: @contact, status: :created, location: @contact
+      UserMailer.welcome_email(@contact).deliver_now
     else
       render json: @contact.errors, status: :unprocessable_entity
     end
