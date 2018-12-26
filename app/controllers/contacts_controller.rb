@@ -18,8 +18,9 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
 
     if @contact.save
-      UserMailer.welcome_email(@contact).deliver_now
+      # UserMailer.welcome_email(@contact).deliver_now
       CompanyMailer.new_contact(@contact).deliver_now
+      
       render json: @contact, status: :created, location: @contact
     else
       render json: @contact.errors, status: :unprocessable_entity
