@@ -65,7 +65,7 @@ address:              'smtp.gmail.com',
 port:                 587,
 domain:               'Princetonevans.com',
 user_name:            'princetonevans5@gmail.com',
-password:             'Beastingonly@55',
+password:             'fhzyknfrdgqsbgzt',
 authentication:       'plain',
 enable_starttls_auto: true  }
 end
