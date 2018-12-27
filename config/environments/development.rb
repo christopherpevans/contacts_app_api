@@ -62,10 +62,10 @@ config.action_mailer.default_options = {from: 'Princeton Evans'}
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
 address:              'smtp.gmail.com',
-port:                 465,
+port:                 587,
 domain:               'Princetonevans.com',
 user_name:            'princetonevans5@gmail.com',
-password:             'beasting5',
+password:             'Beastingonly@55',
 authentication:       'plain',
 enable_starttls_auto: true  }
 end
