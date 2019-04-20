@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'Princeton Evans'
+  default from: 'Envizn'
   layout 'mailer'
 end
