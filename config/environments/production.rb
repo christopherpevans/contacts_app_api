@@ -79,15 +79,15 @@ Rails.application.configure do
 # }
 config.action_mailer.perform_deliveries = true
 config.action_mailer.raise_delivery_errors = true
-config.action_mailer.default_options = {from: 'Envizn'}
+config.action_mailer.default_options = {from: 'Princeton Evans'}
 
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
-address:              'server175.web-hosting.com',
-port:                 465,
-domain:               'envizn.io',
-user_name:            'info@envizn.io',
-password:             'beasting57',
+address:              'smtp.gmail.com',
+port:                 587,
+domain:               'Princetonevans.com',
+user_name:            'princetonevans5@gmail.com',
+password:             'fhzyknfrdgqsbgzt',
 authentication:       'plain',
 enable_starttls_auto: true  }
 
